@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Open+Sans&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Kanit:wght@700&family=Open+Sans&family=Oswald&display=swap');
 
 * {
     box-sizing: border-box;
@@ -37,12 +37,19 @@ li, a {
     font-family: "Open Sans", sans-serif;
 }
 
+.titlebar {
+    background: #80A611;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    color: white;
+    font-family: "Oswald", sans-serif;
+}
+
 .center {
     color: #fff;
     text-shadow: 2px 2px 5px rgb(0 0 0 / 65%);
     text-align: center;
     justify-content: center;
-    /* margin-bottom: 100px; */
 }
 
 .purple_button {
@@ -52,14 +59,6 @@ li, a {
     border-radius: 50px;
     cursor: pointer;
     color: white;
-}
-
-.titlebar {
-    background: #80A611;
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
-    color: white;
-    font-family: "Oswald", sans-serif;
 }
 
 table.center {
